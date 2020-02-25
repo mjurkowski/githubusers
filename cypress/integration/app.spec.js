@@ -9,6 +9,12 @@ describe('App smokes', () => {
     it('should load properly home page', () => {
       cy.location('pathname').should('eq', '/githubusers/');
     })
+
+    it('should infinite scroll load more profiles', () => {
+      for(var i=0; i < 5; i++) {
+        cy.get('.media').last().scrollIntoView({ duration: 1000 });
+      }
+    })
   })
 
   describe('Profile', () => {
@@ -38,6 +44,16 @@ describe('App smokes', () => {
 
     it('should load properly search', () => {
       cy.location('pathname').should('eq', '/githubusers/search');
+    })
+
+    it('should infinite scroll load more profiles', () => {
+      cy.get('input[placeholder="Search user"]').type('mj', {
+        delay: 30
+      })
+      for(var i=0; i < 5; i++) {
+        cy.get('.media').last().scrollIntoView({ duration: 1000 });
+      }
+      cy.get('input[placeholder="Search user"]').type('{backspace}{backspace}')
     })
 
     it('input should find user', () => {
