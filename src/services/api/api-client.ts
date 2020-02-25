@@ -27,11 +27,14 @@ interface IGitHubSearchUsersResponse {
   items: IGitHubUser[];
 }
 
-const TOKEN = process.env.REACT_APP_GITHUB_TOKEN
+const TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 
-const headers = new Headers({
+const authHeaders = {
   'Authorization': `token ${TOKEN}`
-});
+};
+
+const headers = new Headers(process.env.NODE_ENV !== 'production' ? authHeaders : {});
+
 
 const API_URL = 'https://api.github.com';
 

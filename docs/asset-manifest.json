@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/githubusers/static/css/main.afac2612.chunk.css",
+    "main.js": "/githubusers/static/js/main.c10ecd28.chunk.js",
+    "main.js.map": "/githubusers/static/js/main.c10ecd28.chunk.js.map",
+    "runtime-main.js": "/githubusers/static/js/runtime-main.6a8b3b1b.js",
+    "runtime-main.js.map": "/githubusers/static/js/runtime-main.6a8b3b1b.js.map",
+    "static/css/2.67123b20.chunk.css": "/githubusers/static/css/2.67123b20.chunk.css",
+    "static/js/2.b0060771.chunk.js": "/githubusers/static/js/2.b0060771.chunk.js",
+    "static/js/2.b0060771.chunk.js.map": "/githubusers/static/js/2.b0060771.chunk.js.map",
+    "index.html": "/githubusers/index.html",
+    "precache-manifest.fe914eb8899451c5129eed28daa6f37b.js": "/githubusers/precache-manifest.fe914eb8899451c5129eed28daa6f37b.js",
+    "service-worker.js": "/githubusers/service-worker.js",
+    "static/css/2.67123b20.chunk.css.map": "/githubusers/static/css/2.67123b20.chunk.css.map",
+    "static/css/main.afac2612.chunk.css.map": "/githubusers/static/css/main.afac2612.chunk.css.map",
+    "static/js/2.b0060771.chunk.js.LICENSE.txt": "/githubusers/static/js/2.b0060771.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a8b3b1b.js",
+    "static/css/2.67123b20.chunk.css",
+    "static/js/2.b0060771.chunk.js",
+    "static/css/main.afac2612.chunk.css",
+    "static/js/main.c10ecd28.chunk.js"
+  ]
+}

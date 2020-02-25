@@ -1,6 +1,8 @@
 import { createBrowserHistory, Action } from 'history';
 
-export const history = createBrowserHistory();
+export const history = createBrowserHistory({
+  basename: process.env.NODE_ENV === 'production' ? '/githubusers' : '/'
+});
 
 let pastLocations: Location[] = [];
 function updatePastLocations(location: Location, action: Action) {
