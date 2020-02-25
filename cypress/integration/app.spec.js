@@ -58,8 +58,4 @@ describe('App smokes', () => {
       cy.location('pathname').should('eq', '/githubusers/search');
     })
   })
-
-
-
-  
 })

@@ -27,3 +27,21 @@ yarn start
 ```
 yarn build
 ```
+
+## Testing
+
+### E2E testing
+
+To test final result I used Cypress. To run cypress tests:
+
+Window mode:
+
+```
+yarn cy:open
+```
+
+Headless mode
+
+```
+yarn cy:run
+```
