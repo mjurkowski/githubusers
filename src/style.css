@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.layout-list-container {
+  flex: 1 1 auto;
+  height: calc(100% - 2px);
+  position: relative;
+}
+
+.navbar {
+  flex: 0 1 auto;
+}
+
+.list {
+  flex: 1 1 auto;
+}
+
+.users-list-item img {
+  display: inline-block;
+}
